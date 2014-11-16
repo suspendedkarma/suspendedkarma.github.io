@@ -1,0 +1,73 @@
+<style>
+body {
+	background-color:#ffdd6d;
+}
+
+/*div {
+	background-color:#ffdd6d;
+}*/
+
+header {
+    background-color:teal;
+    color:red;
+    text-align:center;
+    padding:5px; 
+}
+#hdr{
+    line-height:30px;
+	/*position:absolute;*/
+	left:0;
+	right:0;
+    background-color:#f88300;
+    font-family: 'Oswald';
+    padding:5px; 
+}
+#mapcanvas{
+	/*position:absolute;
+    /*line-height:300px;*/
+	/*right: 0;*/
+	width: 700px;
+	height: 700px;
+    background-color:teal;
+    float:left;
+    padding:5px; 
+}
+#twitterStuff {
+	float: right;
+	background-color:#ffdd6d;
+}
+
+#b1 {
+	float: right;
+	position: relative;
+	right: 100px;
+	background-color: #ffdd6d;
+   /* -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; */
+    border-radius:6px;
+    color: #663300;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    /*border:none;*/
+	padding:10px;
+}
+
+#b2 {
+	float: right;
+	position: relative;
+	right: 100px;
+	background-color: #ffdd6d;
+   /* -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; */
+    border-radius:6px;
+    color: #663300;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    /*border:none;*/
+	padding:10px;
+}
+</style>
