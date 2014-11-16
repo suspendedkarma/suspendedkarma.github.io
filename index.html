@@ -43,11 +43,12 @@ function success(position) {
   };
   var map = new google.maps.Map(document.getElementById("mapcontainer"), options);
 
-//  var marker = new google.maps.Marker({
-//      position: coords,
-//      map: map,
-//     title:"You are here!"
-//0  });
+  var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/'
+  var marker = new google.maps.Marker({
+      position: new google.maps.LatLng(53.2794082,-9.0595939),
+      map: map,
+      icon: 'pics/coffee-logo-vector-129277.png'
+  });
 }
 
 if (navigator.geolocation) {
