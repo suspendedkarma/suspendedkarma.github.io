@@ -40,7 +40,6 @@ header {
 #b1 {
 	float: right;
 	position: relative;
-	right: 100px;
 	background-color: #ffdd6d;
    /* -moz-border-radius: 5px;
     -webkit-border-radius: 5px; */
@@ -57,7 +56,6 @@ header {
 #b2 {
 	float: right;
 	position: relative;
-	right: 100px;
 	background-color: #ffdd6d;
    /* -moz-border-radius: 5px;
     -webkit-border-radius: 5px; */
